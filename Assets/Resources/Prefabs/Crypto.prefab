@@ -2052,9 +2052,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8751104382751251370}
   - component: {fileID: 3427810815971770832}
+  - component: {fileID: 7303010141908003313}
   - component: {fileID: 7387961700063022676}
   - component: {fileID: 919132148788936452}
-  - component: {fileID: 7303010141908003313}
   m_Layer: 7
   m_Name: Crypto
   m_TagString: Untagged
@@ -2098,6 +2098,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &7303010141908003313
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8230886589689020688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 1.9
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.95, z: 0}
 --- !u!195 &7387961700063022676
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2132,20 +2146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc0ebd58753acf745afadfc666683fb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &7303010141908003313
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8230886589689020688}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.25
-  m_Height: 1.9
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.95, z: 0}
+  agent: {fileID: 7387961700063022676}
 --- !u!1 &8549086070801883855
 GameObject:
   m_ObjectHideFlags: 0
